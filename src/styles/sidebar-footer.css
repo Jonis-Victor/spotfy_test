@@ -3,12 +3,12 @@
     left: 0;
     top: 0;
     width: 300px;
-    background-color: #000000;
+    background-color: #010c0e;
     padding: 12px;
 }
 
 .sidebar .logo {
-    background-color: #121212;
+    background-color: #00151a;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -19,7 +19,7 @@
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: #00151a;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -52,7 +52,7 @@
 }
 
 .library {
-    background-color: #121212;
+    background-color: #00151a;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -97,7 +97,7 @@
 }
 
 .section-playlist {
-    background-color: #242424;
+    background-color: #01262c;
     align-items: flex-start;
     border-radius: 8px;
     gap: 20px;
@@ -147,6 +147,57 @@
     margin-top: 12px;
 }
 
+.section-podcast {
+    background-color: #01262c;
+    align-items: flex-start;
+    border-radius: 8px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+}
+
+.section-podcast .section-podcast__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-podcast__content .text {
+   padding-bottom: 14px;
+   color: #fff;
+}
+
+.section-podcast__content .title {
+   font-weight: 700;
+}
+
+.section-podcast__content .subtitle {
+    font-weight: 500;
+    font-size: 0.8rem;
+ }
+
+ .section-podcast__content .section-podcast__button {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 9999px;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 150px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
 .sidebar .cookies {
     margin: 25px 20px;
 }
@@ -170,7 +221,7 @@
     cursor: pointer;
     align-items: center;
     padding: 8px;
-    width: 170px;
+    width: 200px;
     margin: 8px;
     font-weight: bold;
 }
